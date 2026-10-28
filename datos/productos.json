@@ -1,0 +1,359 @@
+{
+ "moneda": "$",
+ "escalas": [
+  {
+   "desde": 1,
+   "etiqueta": "Unidad"
+  },
+  {
+   "desde": 6,
+   "etiqueta": "Media docena"
+  },
+  {
+   "desde": 12,
+   "etiqueta": "Docena"
+  }
+ ],
+ "categorias": [
+  {
+   "id": "cocina",
+   "nombre": "Cocina"
+  },
+  {
+   "id": "limpieza",
+   "nombre": "Limpieza"
+  },
+  {
+   "id": "organizacion",
+   "nombre": "Organización"
+  },
+  {
+   "id": "termos-y-mates",
+   "nombre": "Termos y mates"
+  },
+  {
+   "id": "textil-hogar",
+   "nombre": "Textil hogar"
+  },
+  {
+   "id": "vajilla",
+   "nombre": "Vajilla"
+  }
+ ],
+ "productos": [
+  {
+   "id": "demo-001",
+   "nombre": "Set de 3 sartenes antiadherentes",
+   "sku": "DEMO-001",
+   "categoria": "cocina",
+   "descripcion": "Medidas 20, 24 y 28 cm. Mango de baquelita.",
+   "precio": 38900,
+   "precios": {
+    "6": 36500,
+    "12": 34200
+   },
+   "imagen": "assets/productos/demo-001.svg"
+  },
+  {
+   "id": "demo-002",
+   "nombre": "Olla de acero 24 cm con tapa",
+   "sku": "DEMO-002",
+   "categoria": "cocina",
+   "descripcion": "Acero inoxidable, apta inducción.",
+   "precio": 27400,
+   "precios": {
+    "6": 25800,
+    "12": 24100
+   },
+   "imagen": "assets/productos/demo-002.svg"
+  },
+  {
+   "id": "demo-003",
+   "nombre": "Juego de 5 utensilios de silicona",
+   "sku": "DEMO-003",
+   "categoria": "cocina",
+   "descripcion": "Espátula, cucharón, pinza, batidor y cuchara.",
+   "precio": 9800,
+   "precios": {
+    "6": 9100,
+    "12": 8500
+   },
+   "imagen": "assets/productos/demo-003.svg"
+  },
+  {
+   "id": "demo-004",
+   "nombre": "Tabla de picar de bambú 35 cm",
+   "sku": "DEMO-004",
+   "categoria": "cocina",
+   "descripcion": "Con canaleta para jugos.",
+   "precio": 7600,
+   "precios": {
+    "6": 7100,
+    "12": 6600
+   },
+   "imagen": "assets/productos/demo-004.svg"
+  },
+  {
+   "id": "demo-005",
+   "nombre": "Rallador 4 caras",
+   "sku": "DEMO-005",
+   "categoria": "cocina",
+   "descripcion": "Acero inoxidable, base antideslizante.",
+   "precio": 5200,
+   "precios": {
+    "6": 4800,
+    "12": 4400
+   },
+   "imagen": "assets/productos/demo-005.svg"
+  },
+  {
+   "id": "demo-006",
+   "nombre": "Juego de 6 vasos de vidrio 350 ml",
+   "sku": "DEMO-006",
+   "categoria": "vajilla",
+   "descripcion": "Vidrio templado, aptos lavavajillas.",
+   "precio": 8900,
+   "precios": {
+    "6": 8300,
+    "12": 7700
+   },
+   "imagen": "assets/productos/demo-006.svg"
+  },
+  {
+   "id": "demo-007",
+   "nombre": "Set de 6 platos playos de cerámica",
+   "sku": "DEMO-007",
+   "categoria": "vajilla",
+   "descripcion": "Diámetro 26 cm. Color blanco.",
+   "precio": 21500,
+   "precios": {
+    "6": 20100,
+    "12": 18900
+   },
+   "imagen": "assets/productos/demo-007.svg"
+  },
+  {
+   "id": "demo-008",
+   "nombre": "Taza de cerámica 300 ml",
+   "sku": "DEMO-008",
+   "categoria": "vajilla",
+   "descripcion": "Varios colores. Precio por unidad.",
+   "precio": 3400,
+   "precios": {
+    "6": 3100,
+    "12": 2850
+   },
+   "imagen": "assets/productos/demo-008.svg"
+  },
+  {
+   "id": "demo-009",
+   "nombre": "Juego de 24 cubiertos",
+   "sku": "DEMO-009",
+   "categoria": "vajilla",
+   "descripcion": "Acero inoxidable, 6 de cada uno.",
+   "precio": 24900,
+   "precios": {
+    "6": 23300,
+    "12": 21800
+   },
+   "imagen": "assets/productos/demo-009.svg"
+  },
+  {
+   "id": "demo-010",
+   "nombre": "Termo de acero 1 litro",
+   "sku": "DEMO-010",
+   "categoria": "termos-y-mates",
+   "descripcion": "Doble pared, pico cebador.",
+   "precio": 22800,
+   "precios": {
+    "6": 21300,
+    "12": 19900
+   },
+   "imagen": "assets/productos/demo-010.svg"
+  },
+  {
+   "id": "demo-011",
+   "nombre": "Mate de cerámica con bombilla",
+   "sku": "DEMO-011",
+   "categoria": "termos-y-mates",
+   "descripcion": "Bombilla de alpaca incluida.",
+   "precio": 6900,
+   "precios": {
+    "6": 6400,
+    "12": 5900
+   },
+   "imagen": "assets/productos/demo-011.svg"
+  },
+  {
+   "id": "demo-012",
+   "nombre": "Matera de cuero sintético",
+   "sku": "DEMO-012",
+   "categoria": "termos-y-mates",
+   "descripcion": "Para termo de 1 litro y mate.",
+   "precio": 15600,
+   "precios": {
+    "6": 14600,
+    "12": 13600
+   },
+   "imagen": "assets/productos/demo-012.svg"
+  },
+  {
+   "id": "demo-013",
+   "nombre": "Organizador de cajón x3",
+   "sku": "DEMO-013",
+   "categoria": "organizacion",
+   "descripcion": "Plástico reforzado, encastrables.",
+   "precio": 4900,
+   "precios": {
+    "6": 4500,
+    "12": 4200
+   },
+   "imagen": "assets/productos/demo-013.svg"
+  },
+  {
+   "id": "demo-014",
+   "nombre": "Canasto multiuso con tapa",
+   "sku": "DEMO-014",
+   "categoria": "organizacion",
+   "descripcion": "Plástico, 20 litros.",
+   "precio": 8300,
+   "precios": {
+    "6": 7700,
+    "12": 7200
+   },
+   "imagen": "assets/productos/demo-014.svg"
+  },
+  {
+   "id": "demo-015",
+   "nombre": "Set de 5 frascos herméticos",
+   "sku": "DEMO-015",
+   "categoria": "organizacion",
+   "descripcion": "Vidrio con tapa de bambú.",
+   "precio": 16900,
+   "precios": {
+    "6": 15800,
+    "12": 14700
+   },
+   "imagen": "assets/productos/demo-015.svg"
+  },
+  {
+   "id": "demo-016",
+   "nombre": "Perchero de pie metálico",
+   "sku": "DEMO-016",
+   "categoria": "organizacion",
+   "descripcion": "Altura 1,70 m. Base redonda.",
+   "precio": 19800,
+   "precios": {
+    "6": 18500,
+    "12": 17300
+   },
+   "imagen": "assets/productos/demo-016.svg"
+  },
+  {
+   "id": "demo-017",
+   "nombre": "Balde con escurridor 12 l",
+   "sku": "DEMO-017",
+   "categoria": "limpieza",
+   "descripcion": "Con ruedas y mango.",
+   "precio": 13200,
+   "precios": {
+    "6": 12300,
+    "12": 11500
+   },
+   "imagen": "assets/productos/demo-017.svg"
+  },
+  {
+   "id": "demo-018",
+   "nombre": "Pack de 6 paños de microfibra",
+   "sku": "DEMO-018",
+   "categoria": "limpieza",
+   "descripcion": "40 x 40 cm. Colores surtidos.",
+   "precio": 5600,
+   "precios": {
+    "6": 5200,
+    "12": 4800
+   },
+   "imagen": "assets/productos/demo-018.svg"
+  },
+  {
+   "id": "demo-019",
+   "nombre": "Escoba con palo extensible",
+   "sku": "DEMO-019",
+   "categoria": "limpieza",
+   "descripcion": "Cerdas suaves para interior.",
+   "precio": 6700,
+   "precios": {
+    "6": 6200,
+    "12": 5800
+   },
+   "imagen": "assets/productos/demo-019.svg"
+  },
+  {
+   "id": "demo-020",
+   "nombre": "Dispenser de jabón de acero",
+   "sku": "DEMO-020",
+   "categoria": "limpieza",
+   "descripcion": "Bomba de acero, 350 ml.",
+   "precio": 7400,
+   "precios": {
+    "6": 6900,
+    "12": 6400
+   },
+   "imagen": "assets/productos/demo-020.svg"
+  },
+  {
+   "id": "demo-021",
+   "nombre": "Juego de toallas x2",
+   "sku": "DEMO-021",
+   "categoria": "textil-hogar",
+   "descripcion": "Toalla y toallón, algodón.",
+   "precio": 18900,
+   "precios": {
+    "6": 17700,
+    "12": 16500
+   },
+   "imagen": "assets/productos/demo-021.svg"
+  },
+  {
+   "id": "demo-022",
+   "nombre": "Mantel antimanchas 1,50 x 2 m",
+   "sku": "DEMO-022",
+   "categoria": "textil-hogar",
+   "descripcion": "Tela tratada, lavable.",
+   "precio": 12800,
+   "precios": {
+    "6": 11900,
+    "12": 11100
+   },
+   "imagen": "assets/productos/demo-022.svg"
+  },
+  {
+   "id": "demo-023",
+   "nombre": "Repasadores x3",
+   "sku": "DEMO-023",
+   "categoria": "textil-hogar",
+   "descripcion": "Algodón, 45 x 70 cm.",
+   "precio": 4300,
+   "precios": {
+    "6": 4000,
+    "12": 3700
+   },
+   "imagen": "assets/productos/demo-023.svg"
+  },
+  {
+   "id": "demo-024",
+   "nombre": "Almohadón decorativo 45 cm",
+   "sku": "DEMO-024",
+   "categoria": "textil-hogar",
+   "descripcion": "Funda con cierre, relleno incluido.",
+   "precio": 9600,
+   "precios": {
+    "6": 8900,
+    "12": 8300
+   },
+   "imagen": "assets/productos/demo-024.svg"
+  }
+ ],
+ "_importado": "2026-10-27T21:59:48",
+ "_origen": "planilla-demo.csv"
+}
